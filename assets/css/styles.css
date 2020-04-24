@@ -14,6 +14,13 @@ a {
   color: #f49674;
 }
 
+hr {
+  height: 5px;
+  border: 1px solid #f49674;
+  border-radius: 20px;
+  background-color: #f49674;
+}
+
 h1 {
   font-size: 22px;
 }
@@ -67,14 +74,21 @@ div {
   max-height: 92vh;
 }
 
+.header__links {
+  display: none;
+}
+
 .header__links ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  min-height: 92vh;
+  justify-content: space-evenly;
 }
 
 .header__links li {
-  padding: 50px;
+  padding: 30px;
   font-size: 30px;
-  display: none;
 }
 
 .header__links {
