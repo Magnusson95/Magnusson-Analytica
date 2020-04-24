@@ -55,3 +55,83 @@ a {
   position: absolute;
   background-color: #011936;
 }
+
+/*****Landing Page*****/
+.button {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px auto;
+  border: 2px solid #f49674;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.my-work-summary,
+.my-skills {
+  display: flex;
+}
+
+.my-work-summary,
+.my-skills,
+.my-software {
+  padding: 10px;
+}
+
+.my-work-summary__heading h2,
+.my-skills__heading h2 {
+  text-align: right;
+  position: relative;
+  right: -14px;
+  padding: 5px 0;
+}
+
+.my-work-summary__example {
+  background-color: #3e6481;
+  min-width: 40%;
+}
+
+.my-skills__heading {
+  color: #3e6481;
+}
+
+.my-software__heading {
+  text-align: center;
+}
+
+.my-work-summary__text {
+  text-justify: auto;
+}
+
+.grid {
+  width: 100%;
+  background-color: #f49674;
+  color: #3e6481;
+}
+
+.my-software__collage {
+  background-color: #3e6481;
+  clear: both;
+  line-height: 0;
+  column-count: 2;
+  column-gap: 0px;
+}
+
+.software {
+  border-radius: 5px;
+  background-color: rgba(244, 150, 116, 0.5);
+  padding: 20px;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.software:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  box-shadow: 10px 10px 10px 10px rgba(244, 150, 116, 0.5);
+}
+
+.my-software__collage img {
+  max-height: 40px;
+  width: auto;
+}
