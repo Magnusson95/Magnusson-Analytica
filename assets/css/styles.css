@@ -14,9 +14,10 @@ a {
   color: #f49674;
 }
 
+/**
 div {
   border: 1px solid green;
-}
+}**/
 
 /*****Header Section*****/
 
@@ -68,41 +69,66 @@ div {
   border: 2px solid #f49674;
   border-radius: 20px;
   text-align: center;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background-color: #f49674;
+  color: #3e6481;
 }
 
 .my-work-summary,
 .my-skills {
   display: flex;
+  padding: 5px 0;
 }
 
-.my-work-summary,
-.my-skills,
-.my-software {
-  padding: 10px;
-}
-
-.my-work-summary__heading {
+.my-work-summary__heading,
+.my-skills__heading {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 50% 0;
+  padding: 20% 0;
 }
 
 .my-work-summary__heading h2,
 .my-skills__heading h2 {
   text-align: right;
-  position: relative;
-  right: -14px;
   padding: 5px 0;
+  font-size: 15px;
+}
+
+/* .my-work-summary__heading {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(62, 100, 129, 1) 100%
+  );
+} */
+
+.my-work-summary__content {
+  width: 100%;
+  display: flex;
 }
 
 .my-work-summary__example {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 45px;
+  padding-left: 5px;
   background-color: #3e6481;
-  min-width: 40%;
+  min-width: 60%;
 }
 
 .my-skills__heading {
   color: #3e6481;
+  /* background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(244, 150, 116, 1) 100%
+  ); */
 }
 
 .my-software__heading {
@@ -118,6 +144,51 @@ div {
   width: 100%;
   background-color: #f49674;
   color: #3e6481;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2px;
+}
+
+.grid i {
+  font-size: 25px;
+}
+
+.card-big,
+.card-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #3e6481;
+  color: #f49674;
+  margin: 2px;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+
+.card-big {
+  grid-column-start: span 2;
+  flex-direction: row;
+}
+
+.card-big p,
+.card-big i {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2px;
+  text-align: center;
+}
+
+.card-big:hover,
+.card-small:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 6px rgba(244, 150, 116, 0.6);
+}
+
+.card-small {
+  grid-column-start: span 1;
+  text-align: center;
 }
 
 .my-software__collage {
@@ -131,10 +202,10 @@ div {
 
 .software {
   border-radius: 5px;
-  background-color: rgba(244, 150, 116, 1);
+  /* background-color: rgba(244, 150, 116, 1); */
   padding: 5px;
   margin: 10px 10px;
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
   display: flex;
   justify-content: space-evenly;
 }
@@ -146,6 +217,6 @@ div {
 }
 
 .my-software__collage img {
-  max-height: 40px;
+  max-height: 80px;
   width: auto;
 }
