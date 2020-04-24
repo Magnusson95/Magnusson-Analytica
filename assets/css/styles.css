@@ -80,23 +80,27 @@ div {
 .my-work-summary,
 .my-skills {
   display: flex;
+  flex-direction: column;
   padding: 5px 0;
 }
 
 .my-work-summary__heading,
 .my-skills__heading {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: space-around;
-  padding: 20% 0;
+  /* padding: 20% 0; */
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
 }
 
-.my-work-summary__heading h2,
+/* .my-work-summary__heading h2,
 .my-skills__heading h2 {
   text-align: right;
   padding: 5px 0;
   font-size: 15px;
-}
+} */
 
 /* .my-work-summary__heading {
   background: linear-gradient(
@@ -109,6 +113,7 @@ div {
 .my-work-summary__content {
   width: 100%;
   display: flex;
+  flex-direction: column;
 }
 
 .my-work-summary__example {
@@ -120,6 +125,7 @@ div {
   padding-left: 5px;
   background-color: #3e6481;
   min-width: 60%;
+  min-height: 300px;
 }
 
 .my-skills__heading {
@@ -136,7 +142,7 @@ div {
 }
 
 .my-work-summary__text {
-  text-justify: auto;
+  text-align: center;
   padding: 0 15px;
 }
 
@@ -146,7 +152,7 @@ div {
   color: #3e6481;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 2px;
+  padding: 10px;
 }
 
 .grid i {
@@ -175,14 +181,18 @@ div {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 2px;
+  padding: 2px 15px;
   text-align: center;
+}
+
+.card-big p {
+  padding-left: 0;
 }
 
 .card-big:hover,
 .card-small:hover {
   cursor: pointer;
-  transform: scale(1.05);
+  transform: scale(1.02);
   box-shadow: 0px 6px 6px rgba(244, 150, 116, 0.6);
 }
 
@@ -212,11 +222,11 @@ div {
 
 .software:hover {
   cursor: pointer;
-  transform: scale(1.05);
+  transform: scale(1.8);
   box-shadow: 0px 6px 6px rgba(244, 150, 116, 0.6);
 }
 
 .my-software__collage img {
-  max-height: 80px;
+  max-height: 40px;
   width: auto;
 }
