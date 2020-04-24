@@ -111,15 +111,17 @@ a {
 .my-software__collage {
   background-color: #3e6481;
   clear: both;
-  line-height: 0;
-  column-count: 2;
-  column-gap: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
 }
 
 .software {
   border-radius: 5px;
-  background-color: rgba(244, 150, 116, 0.5);
-  padding: 20px;
+  background-color: rgba(244, 150, 116, 1);
+  padding: 5px;
+  margin: 10px 10px;
   transition: all 0.5s ease;
   display: flex;
   justify-content: space-evenly;
@@ -127,8 +129,8 @@ a {
 
 .software:hover {
   cursor: pointer;
-  transform: scale(1.02);
-  box-shadow: 10px 10px 10px 10px rgba(244, 150, 116, 0.5);
+  transform: scale(1.05);
+  box-shadow: 0px 6px 6px rgba(244, 150, 116, 0.6);
 }
 
 .my-software__collage img {
