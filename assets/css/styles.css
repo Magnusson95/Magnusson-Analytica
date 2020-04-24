@@ -13,3 +13,45 @@ a {
   text-decoration: none;
   color: #f49674;
 }
+
+/*****Header Section*****/
+
+.header__primary {
+  min-height: 8vh;
+  max-height: 8vh;
+}
+
+.header__primary,
+.header__links,
+.header__secondary {
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  text-align: center;
+}
+
+.header__logo {
+  min-width: 75%;
+}
+
+.header__secondary,
+.header__hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header__links ul {
+  list-style-type: none;
+}
+
+.header__links li {
+  padding: 50px;
+  font-size: 30px;
+  display: none;
+}
+
+.header__links {
+  position: absolute;
+  background-color: #011936;
+}
