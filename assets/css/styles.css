@@ -14,6 +14,10 @@ a {
   color: #f49674;
 }
 
+div {
+  border: 1px solid green;
+}
+
 /*****Header Section*****/
 
 .header__primary {
@@ -77,6 +81,13 @@ a {
   padding: 10px;
 }
 
+.my-work-summary__heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 50% 0;
+}
+
 .my-work-summary__heading h2,
 .my-skills__heading h2 {
   text-align: right;
@@ -100,6 +111,7 @@ a {
 
 .my-work-summary__text {
   text-justify: auto;
+  padding: 0 15px;
 }
 
 .grid {
