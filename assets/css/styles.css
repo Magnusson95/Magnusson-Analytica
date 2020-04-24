@@ -63,6 +63,10 @@ div {
   justify-content: space-around;
 }
 
+.header__secondary {
+  max-height: 92vh;
+}
+
 .header__links ul {
   list-style-type: none;
 }
