@@ -550,7 +550,7 @@ button:hover {
     padding: 10px 2vw;
     margin: 20px 0px 20px 10px;
   }
-  section {
+  .index-section {
     width: 90%;
     margin: 0 auto;
   }
