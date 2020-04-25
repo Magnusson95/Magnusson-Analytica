@@ -23,14 +23,21 @@ hr {
 
 h1 {
   font-size: 22px;
+  text-align: center;
 }
 
 h2 {
   font-size: 16px;
+  text-align: center;
 }
 
 h3 {
   font-size: 14px;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
 }
 
 .button {
@@ -291,6 +298,16 @@ div {
 
 /*****Contact Page*****/
 
+.contact-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/backgrounds/contact-header-background.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+}
+
 .header__secondary__other h1 {
   border: 5px solid #f49674;
   border-radius: 5px;
@@ -322,7 +339,7 @@ div {
 }
 
 .contact-details__sections p {
-  color: black;
+  color: #fcf7f8;
   word-wrap: break-word;
   font-size: 12px;
 }
@@ -340,17 +357,38 @@ div {
 .contact-form textarea {
   border: 2px solid #f49674;
   border-radius: 5px;
+  background-color: rgba(252, 247, 248, 0.85);
   margin: 5px;
   padding: 5px;
   font-family: Poppins, sans-serif;
   color: #f49674;
 }
 
-/*****Social Link Icons*****/
-
-.social-links h4 {
-  text-align: center;
+.contact-form button {
+  background-color: rgba(252, 247, 248, 0.85);
+  color: #f49674;
 }
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #f49674;
+  opacity: 1; /* Firefox */
+}
+
+.contact-form input:-ms-input-placeholder,
+.contact-form textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #f49674;
+}
+
+.contact-form input::-ms-input-placeholder,
+.contact-form textarea::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #f49674;
+}
+
+/*****Social Link Icons*****/
 
 .social-links__icons {
   display: flex;
@@ -360,3 +398,5 @@ div {
   padding: 15px;
   font-size: 40px;
 }
+
+/*****Contact Map*****/
