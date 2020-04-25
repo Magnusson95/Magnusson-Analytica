@@ -67,6 +67,10 @@ button:hover {
   color: #3e6481;
 }
 
+textarea {
+  resize: none;
+}
+
 /* div {
   border: 1px solid green;
 } */
@@ -483,6 +487,10 @@ button:hover {
 
 /*****Social Link Icons*****/
 
+.social-links-desktop {
+  display: none;
+}
+
 .social-links__icons {
   display: flex;
   justify-content: space-evenly;
@@ -566,6 +574,32 @@ button:hover {
   .my-software__collage__header,
   .my-software__collage {
     padding: 10px 2vw;
+  }
+
+  .contact-items {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .contact-details,
+  .contact-form,
+  .contact-map {
+    width: 50%;
+    margin: 10px;
+  }
+
+  .social-links-mobile {
+    display: none;
+  }
+  .social-links-desktop {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+  }
+  .social-links__icons {
+    width: 100%;
   }
 }
 @media all and (min-width: 991px) {
