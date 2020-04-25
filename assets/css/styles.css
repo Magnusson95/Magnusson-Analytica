@@ -60,11 +60,9 @@ button:hover {
   color: #3e6481;
 }
 
-/**
 div {
   border: 1px solid green;
 }
-**/
 
 /*****Backgrounds*****/
 
@@ -332,6 +330,53 @@ div {
 }
 
 /*****Blog Page*****/
+.blog-filter {
+  padding: 10px;
+}
+
+.blog-filter select {
+  display: flex;
+  margin: 5px auto;
+  padding: 5px;
+}
+
+.blog-page-layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog-post {
+  display: flex;
+  padding: 10px;
+}
+
+.blog-image {
+  min-width: 50%;
+  max-width: 50%;
+  background-color: #011936;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.blog-image img {
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.blog-post hr {
+  min-width: 150%;
+  position: relative;
+  right: 50%;
+  border-radius: 0px;
+  border: none;
+  height: 2px;
+}
+
+.blog-post p {
+  text-align: center;
+}
 
 /*****Contact Page*****/
 .contact-details {
