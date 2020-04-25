@@ -69,6 +69,13 @@ button:hover {
 
 /*****Backgrounds*****/
 
+.portfolio-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/backgrounds/portfolio-header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .blog-background {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/backgrounds/blog-header-background.jpg");
@@ -88,9 +95,9 @@ button:hover {
 /*****Header Section*****/
 
 .header__primary {
-  min-height: 8vh;
-  max-height: 8vh;
-  margin-top: 2vh;
+  min-height: 12vh;
+  max-height: 12vh;
+  padding: 2vh 0;
 }
 
 .header__primary,
@@ -104,6 +111,8 @@ button:hover {
 
 .header__logo {
   min-width: 50%;
+  padding: 0;
+  margin: 0;
 }
 
 .header__logo img {
@@ -120,7 +129,6 @@ button:hover {
 
 .header__secondary {
   max-height: 88vh;
-  margin-top: 2vh;
 }
 
 .header__secondary__other h1 {
@@ -137,6 +145,7 @@ button:hover {
 
 .header__links {
   display: none;
+  z-index: 1;
 }
 
 .header__links ul {
@@ -381,6 +390,16 @@ button:hover {
   text-align: center;
 }
 
+/*****Portfolio Page*****/
+
+.portfolio-page-layout {
+  background-color: #03111e;
+}
+
+.portfolio-image {
+  background-color: #f49674;
+}
+
 /*****Contact Page*****/
 .contact-details {
   text-align: center;
@@ -463,3 +482,18 @@ button:hover {
 }
 
 /*****Contact Map*****/
+
+/*****Responsive Design*****/
+
+@media all and (min-width: 575px) {
+  ...;
+}
+@media all and (min-width: 768px) {
+  ...;
+}
+@media all and (min-width: 991px) {
+  ...;
+}
+@media all and (min-width: 1199px) {
+  ...;
+}
