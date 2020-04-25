@@ -206,6 +206,12 @@ button:hover {
   margin: 0 auto;
 }
 
+.my-work-summary__heading br,
+.my-skills__heading br,
+.my-software__heading br {
+  display: none;
+}
+
 /* .my-work-summary__heading h2,
 .my-skills__heading h2 {
   text-align: right;
@@ -311,7 +317,8 @@ button:hover {
   text-align: center;
 }
 
-.my-software__collage {
+.my-software__collage,
+.my-software__collage__header {
   background-color: #3e6481;
   clear: both;
   display: flex;
@@ -486,14 +493,111 @@ button:hover {
 /*****Responsive Design*****/
 
 @media all and (min-width: 575px) {
-  ...;
 }
 @media all and (min-width: 768px) {
-  ...;
+  .my-work-summary,
+  .my-software {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .my-skills {
+    flex-direction: row-reverse;
+  }
+  .my-work-summary__content {
+    flex-direction: row;
+  }
+  .my-work-summary__heading,
+  .my-skills__heading,
+  .my-software__heading {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .my-work-summary__heading h2,
+  .my-software__heading h2 {
+    text-align: right;
+    position: relative;
+    right: -2vw;
+    font-size: 40px;
+  }
+
+  .my-skills__heading h2 {
+    text-align: left;
+    position: relative;
+    left: -2vw;
+    font-size: 40px;
+  }
+
+  .my-work-summary__heading br,
+  .my-skills__heading br,
+  .my-software__heading br {
+    display: inline;
+  }
+
+  .my-work-summary__text hr {
+    width: 150%;
+    position: relative;
+    right: 50%;
+  }
+
+  .grid {
+    padding: 10px 2vw;
+    margin: 20px 0px 20px 10px;
+  }
+  section {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .my-software__heading h2 {
+    font-size: 30px;
+  }
+
+  .my-software__collage__container {
+    margin: 10px 0;
+  }
+
+  .my-software__collage__header,
+  .my-software__collage {
+    padding: 10px 2vw;
+  }
 }
 @media all and (min-width: 991px) {
-  ...;
+  .larger-layout {
+    display: flex;
+  }
+
+  .my-work-summary,
+  .my-skills {
+    width: 50%;
+    margin: 0 2vw;
+  }
+
+  .my-work-summary button {
+    width: 80%;
+  }
+
+  .my-software {
+    display: inline;
+  }
+  .my-software__heading {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .my-software__heading h2 {
+    text-align: center;
+  }
+
+  .my-software__heading br {
+    display: none;
+  }
 }
 @media all and (min-width: 1199px) {
-  ...;
+  .my-software__collage__container {
+    width: 50%;
+    margin: 10px auto;
+  }
 }
