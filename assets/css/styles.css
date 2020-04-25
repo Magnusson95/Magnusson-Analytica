@@ -40,11 +40,13 @@ h4 {
   text-align: center;
 }
 
-.button {
+button {
   display: flex;
   justify-content: space-around;
   margin: 15px auto;
   border: 2px solid #f49674;
+  background-color: rgba(252, 247, 248, 0.85);
+  color: #f49674;
   border-radius: 20px;
   text-align: center;
   transition: all 0.2s ease;
@@ -53,7 +55,7 @@ h4 {
   font-family: Poppins, sans-serif;
 }
 
-.button:hover {
+button:hover {
   background-color: #f49674;
   color: #3e6481;
 }
@@ -61,13 +63,33 @@ h4 {
 /**
 div {
   border: 1px solid green;
-}**/
+}
+**/
+
+/*****Backgrounds*****/
+
+.blog-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/backgrounds/blog-header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/backgrounds/contact-header-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+}
 
 /*****Header Section*****/
 
 .header__primary {
   min-height: 8vh;
   max-height: 8vh;
+  margin-top: 2vh;
 }
 
 .header__primary,
@@ -96,7 +118,20 @@ div {
 }
 
 .header__secondary {
-  max-height: 92vh;
+  max-height: 88vh;
+  margin-top: 2vh;
+}
+
+.header__secondary__other h1 {
+  border: 5px solid #f49674;
+  border-radius: 5px;
+  margin: 10px 30%;
+}
+
+.header__secondary__other h3 {
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 .header__links {
@@ -296,24 +331,9 @@ div {
   width: auto;
 }
 
+/*****Blog Page*****/
+
 /*****Contact Page*****/
-
-.contact-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/backgrounds/contact-header-background.jpg");
-  background-color: black;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center top;
-  background-size: cover;
-}
-
-.header__secondary__other h1 {
-  border: 5px solid #f49674;
-  border-radius: 5px;
-  margin: 10px 30%;
-}
-
 .contact-details {
   text-align: center;
 }
@@ -361,11 +381,6 @@ div {
   margin: 5px;
   padding: 5px;
   font-family: Poppins, sans-serif;
-  color: #f49674;
-}
-
-.contact-form button {
-  background-color: rgba(252, 247, 248, 0.85);
   color: #f49674;
 }
 
