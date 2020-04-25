@@ -33,9 +33,22 @@ h3 {
   font-size: 14px;
 }
 
-.active {
+.button {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px auto;
+  border: 2px solid #f49674;
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 50%;
+  background: none;
+  font-family: Poppins, sans-serif;
+}
+
+.button:hover {
   background-color: #f49674;
-  color: #011936;
+  color: #3e6481;
 }
 
 /**
@@ -114,23 +127,16 @@ div {
   font-size: 8px;
 }
 
-/*****Landing Page*****/
-.button {
-  display: flex;
-  justify-content: space-around;
-  margin: 15px auto;
-  border: 2px solid #f49674;
-  border-radius: 20px;
-  text-align: center;
-  transition: all 0.2s ease;
-  width: 50%;
+.header__hamburger {
+  cursor: pointer;
 }
 
-.button:hover {
+.active {
   background-color: #f49674;
-  color: #3e6481;
+  color: #011936;
 }
 
+/*****Landing Page*****/
 .my-work-summary,
 .my-skills {
   display: flex;
@@ -306,6 +312,7 @@ div {
 
 .contact-details__sections__div {
   border-left: 5px solid #f49674;
+  border-radius: 5px;
 }
 
 .contact-details__sections__detail {
@@ -320,9 +327,36 @@ div {
   font-size: 12px;
 }
 
+/*****Contact Form*****/
+
 .contact-form {
   display: flex;
   flex-direction: column;
   width: 75%;
   margin: 10px auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 2px solid #f49674;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  font-family: Poppins, sans-serif;
+  color: #f49674;
+}
+
+/*****Social Link Icons*****/
+
+.social-links h4 {
+  text-align: center;
+}
+
+.social-links__icons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 15px;
+  font-size: 40px;
 }
