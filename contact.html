@@ -12,6 +12,15 @@
       src="https://kit.fontawesome.com/8ea4f12082.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_ZQ0HbGkCFOUEs2t4X7Yo9");
+      })();
+    </script>
     <title>Contact Magnusson</title>
   </head>
   <body class="contact-background">
@@ -82,7 +91,8 @@
             </div>
           </div>
         </div>
-        <form class="contact-form">
+        <form onsubmit="return sendMail(this);" class="contact-form">
+          <h3><em>Send an Email</em></h3>
           <input type="text" id="name" placeholder="Your Name" />
           <input type="text" id="email" placeholder="Your Email" />
           <input type="text" id="subject" placeholder="Subject" />
@@ -99,7 +109,7 @@
           </div>
         </div>
         <div class="contact-map">
-          <h4>Our Offices</h4>
+          <h3><em>Find our Offices</em></h3>
         </div>
       </div>
       <div class="social-links social-links-desktop">
@@ -120,5 +130,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="assets/javascript/base.js"></script>
+    <script src="assets/javascript/sendmail.js"></script>
   </body>
 </html>
