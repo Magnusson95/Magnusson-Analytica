@@ -91,9 +91,5 @@ $("#scrum-logo").click(function () {
 $("#jira-logo").click(function () {
   $(".my-software__collage__container")
     .addClass("animated")
-    .addClass("fadeOutLeft");
-  $(".software-details")
-    .removeClass("hidden")
-    .addClass("animated")
-    .addClass("fadeInRight");
+    .addClass("flipOutX");
 });

@@ -32,6 +32,8 @@ Milestone 2 Project
 
 ##### [Issues and Resolutions](#issues-and-resolutions)
 
+Software hover scale transformation was causing items to overflow, leading to extra, unwanted scrollbars
+
 ##### [Known Issues](#known-issues)
 
 ## 7. [Deployment](#Deployment)
