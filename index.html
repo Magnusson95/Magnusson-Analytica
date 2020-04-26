@@ -32,9 +32,14 @@
         </div>
         <div class="form-content">
           <div class="callback-header"><h1>Request a Callback</h1></div>
-          <input type="text" id="name" placeholder="Your Name" />
-          <input type="text" id="email" placeholder="Your Email" />
-          <input type="text" id="number" placeholder="Contact Number" />
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <input
+            type="text"
+            id="number"
+            placeholder="Contact Number"
+            required
+          />
           <button id="submit" type="submit" class="button">Send Message</button>
         </div>
       </form>
