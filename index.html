@@ -26,18 +26,18 @@
   </head>
   <body>
     <header>
-      <div class="header__primary">
-        <p>example@gmail.com</p>
-        <a href="index.html" class="header__logo">
-          <img
-            src="assets/images/20200422_logo_design_v1.png"
-            alt="Magnusson Informatica Logo"
-          />
-        </a>
-        <div class="header__hamburger">
-          <i class="fas fa-bars"></i>
+      <form onsubmit="return sendMail(this);" class="callback-form">
+        <div class="close">
+          <h3>Close <i class="fas fa-times"></i></h3>
         </div>
-      </div>
+        <div class="form-content">
+          <div class="callback-header"><h1>Request a Callback</h1></div>
+          <input type="text" id="name" placeholder="Your Name" />
+          <input type="text" id="email" placeholder="Your Email" />
+          <input type="text" id="number" placeholder="Contact Number" />
+          <button id="submit" type="submit" class="button">Send Message</button>
+        </div>
+      </form>
       <div class="header__secondary header__links">
         <ul>
           <li>
@@ -54,6 +54,18 @@
           </li>
         </ul>
       </div>
+      <div class="header__primary">
+        <p>example@gmail.com</p>
+        <a href="index.html" class="header__logo">
+          <img
+            src="assets/images/20200422_logo_design_v1.png"
+            alt="Magnusson Informatica Logo"
+          />
+        </a>
+        <div class="header__hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
       <div class="header__secondary">
         <h1>Magnusson Informatica</h1>
         <h2>DATA ANALYTICS, SIMPLIFIED</h2>
@@ -61,17 +73,12 @@
     </header>
 
     <section class="index-section">
-      <a href="">
-        <button>
+      <div>
+        <button class="callback">
           <h3>Request a Callback</h3>
         </button>
-      </a>
-      <form onsubmit="return sendMail(this);" class="contact-form">
-        <input type="text" id="name" placeholder="Your Name" />
-        <input type="text" id="email" placeholder="Your Email" />
-        <input type="text" id="number" placeholder="Contact Number" />
-        <button id="submit" type="submit" class="button">Send Message</button>
-      </form>
+      </div>
+
       <div class="larger-layout">
         <div class="my-work-summary">
           <div class="my-work-summary__heading">
