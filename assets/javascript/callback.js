@@ -3,9 +3,9 @@ function sendMail(contactForm) {
     .send("magnusson_informatica", "contact_form", {
       from_name: contactForm.name.value,
       from_email: contactForm.email.value,
-      subject: contactForm.subject.value,
-      message: contactForm.message.value,
-      contact_number: null,
+      subject: "Callback",
+      message: "Please call me back on:",
+      contact_number: contactForm.number.value,
     })
     .then(
       function (response) {
