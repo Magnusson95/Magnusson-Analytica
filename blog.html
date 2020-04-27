@@ -12,10 +12,34 @@
       src="https://kit.fontawesome.com/8ea4f12082.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_ZQ0HbGkCFOUEs2t4X7Yo9");
+      })();
+    </script>
     <title>Blog</title>
   </head>
   <body>
     <header>
+      <form onsubmit="return sendMail(this);" class="subscribe-form">
+        <div class="subscribe-container">
+          <div class="form-content">
+            <div class="callback-header"><h1>Subscribe</h1></div>
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
+            <button id="submit" type="submit" class="button">
+              Confirm
+            </button>
+            <div class="close">
+              <h3>Close <i class="fas fa-times"></i></h3>
+            </div>
+          </div>
+        </div>
+      </form>
       <div class="header__secondary header__links">
         <ul>
           <li>
@@ -111,5 +135,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="assets/javascript/base.js"></script>
+    <script src="assets/javascript/subscribe.js"></script>
   </body>
 </html>

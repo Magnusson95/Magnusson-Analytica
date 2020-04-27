@@ -6,8 +6,13 @@ $(".callback").click(function () {
   $(".callback-form").toggle("slow");
 });
 
+$("#subscribe").click(function () {
+  $(".subscribe-form").toggle("slow");
+});
+
 $(".close").click(function () {
   $(".callback-form").toggle("slow");
+  $(".subscribe-form").toggle("slow");
 });
 
 $(".my-software__details__back").click(function () {
