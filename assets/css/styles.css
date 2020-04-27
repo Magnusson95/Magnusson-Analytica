@@ -44,7 +44,8 @@ p {
   text-align: center;
 }
 
-button {
+button,
+.button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -62,7 +63,8 @@ button {
   font-family: Poppins, sans-serif;
 }
 
-button:hover {
+button:hover,
+.button:hover {
   background-color: #f49674;
   color: #3e6481;
 }
