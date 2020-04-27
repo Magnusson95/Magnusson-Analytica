@@ -250,7 +250,7 @@ textarea {
 }
 
 /*****Landing Page*****/
-*/ .my-work-summary,
+.my-work-summary,
 .my-skills {
   display: flex;
   flex-direction: column;
@@ -265,6 +265,12 @@ textarea {
   text-align: center;
   width: 60%;
   margin: 0 auto;
+}
+
+.my-skills__heading,
+.my-software__heading,
+.my-work-summary__heading {
+  z-index: 2;
 }
 
 .my-work-summary__heading br,
@@ -407,6 +413,22 @@ textarea {
 .my-software__collage img {
   max-height: 40px;
   width: auto;
+}
+
+.my-skills__total-container {
+  position: relative;
+}
+.my-software__details {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: #3e6481; */
+  background-color: green;
+  z-index: -1;
 }
 
 /*****Blog Page*****/
@@ -616,10 +638,11 @@ textarea {
 
   .my-software__heading h2 {
     font-size: 30px;
+    text-align: right;
   }
 
   .my-software__collage__container {
-    margin: 10px 0;
+    margin: 0px 0;
   }
 
   .my-software__collage__header,
@@ -676,7 +699,8 @@ textarea {
   .my-software {
     display: inline;
   }
-  .my-software__heading {
+  .my-software__heading,
+  .my-software__details {
     width: 50%;
     margin: 0 auto;
   }
@@ -695,6 +719,11 @@ textarea {
     width: 50%;
     margin: 10px auto;
   }
+
+  .my-software__details {
+    left: 25%;
+  }
+
   .blog-post {
     max-width: 30%;
   }

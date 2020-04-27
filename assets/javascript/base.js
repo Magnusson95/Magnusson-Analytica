@@ -14,6 +14,7 @@ $("#tableau-logo").click(function () {
   $(".my-software__collage__container")
     .addClass("animated")
     .addClass("flipOutX");
+  $(".my-software__details").addClass("animated").addClass("flipInX");
 });
 
 $("#power-bi-logo").click(function () {
