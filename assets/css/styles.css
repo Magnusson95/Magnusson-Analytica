@@ -225,7 +225,8 @@ textarea {
   font-size: 30px;
 }
 
-.callback-form input {
+.callback-form input,
+.subscribe-form input {
   border: 2px solid #f49674;
   border-radius: 5px;
   background-color: rgba(252, 247, 248, 0.85);
@@ -236,18 +237,21 @@ textarea {
   color: #f49674;
 }
 
-.callback-form input::placeholder {
+.callback-form input::placeholder,
+.subscribe-form input::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #f49674;
   opacity: 1; /* Firefox */
 }
 
-.callback-form input:-ms-input-placeholder {
+.callback-form input:-ms-input-placeholder,
+.subscribe-form input:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: #f49674;
 }
 
-.callback-form input::-ms-input-placeholder {
+.callback-form input::-ms-input-placeholder,
+.subscribe-form input::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #f49674;
 }
