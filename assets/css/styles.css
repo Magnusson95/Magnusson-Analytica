@@ -61,6 +61,7 @@ button,
   width: 50%;
   background: none;
   font-family: Poppins, sans-serif;
+  cursor: pointer;
 }
 
 button:hover,
