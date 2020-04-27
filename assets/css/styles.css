@@ -741,6 +741,10 @@ textarea {
   .my-software__heading br {
     display: none;
   }
+
+  .my-software__details {
+    width: 100%;
+  }
 }
 @media all and (min-width: 1199px) {
   .my-software__collage__container {
@@ -750,6 +754,7 @@ textarea {
 
   .my-software__details {
     left: 25%;
+    width: 50%;
   }
 
   .blog-post {
