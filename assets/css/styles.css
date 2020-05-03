@@ -4,9 +4,10 @@
   margin: 0;
 }
 
-body {
+body,
+#blog {
   font-family: "Poppins", sans-serif;
-  color: #ff6d02;
+  color: #00305a;
 }
 
 a {
@@ -129,12 +130,19 @@ textarea {
   justify-content: space-around;
   min-width: 100%;
   text-align: center;
+  color: #ff6d02;
 }
 
-.header__primary i {
+.header__primary a,
+.header__hamburger {
   height: 50%;
   margin: auto 0;
   font-size: 26px;
+  width: 25%;
+}
+
+.header__hamburger i {
+  margin: 0 auto;
 }
 
 .header__logo {
@@ -145,6 +153,8 @@ textarea {
 
 .header__logo img {
   max-height: 8vh;
+  max-width: 100%;
+  height: auto;
 }
 
 .header__secondary,
@@ -156,8 +166,8 @@ textarea {
 }
 
 .header__secondary__other h1 {
-  border: 5px solid #ff6d02;
-  border-radius: 5px;
+  font-family: "Indie Flower", cursive;
+  font-size: 50px;
   margin: 10px 30%;
 }
 
@@ -270,11 +280,6 @@ textarea {
 .subscribe-form input::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #ff6d02;
-}
-
-.header__hamburger,
-.header__primary p {
-  width: 15%;
 }
 
 .header__primary p {
@@ -623,6 +628,10 @@ textarea {
 @media all and (min-width: 575px) {
 }
 @media all and (min-width: 768px) {
+  #subscribe {
+    width: 25%;
+  }
+
   .my-work-summary,
   .my-software {
     display: flex;
@@ -636,7 +645,6 @@ textarea {
     flex-direction: row;
   }
   .my-work-summary__heading,
-  /* .my-skills__heading, */
   .my-software__heading {
     width: 20%;
     display: flex;
