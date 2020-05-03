@@ -6,19 +6,19 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  color: #f49674;
+  color: #ff6d02;
 }
 
 a {
   text-decoration: none;
-  color: #f49674;
+  color: #ff6d02;
 }
 
 hr {
   height: 5px;
-  border: 1px solid #f49674;
+  border: 1px solid #ff6d02;
   border-radius: 20px;
-  background-color: #f49674;
+  background-color: #ff6d02;
 }
 
 h1 {
@@ -52,9 +52,9 @@ button,
   margin: 15px auto;
   padding: 5px;
   text-align: center;
-  border: 2px solid #f49674;
-  background-color: rgba(252, 247, 248, 0.85);
-  color: #f49674;
+  border: 2px solid #ff6d02;
+  background-color: #ff6d02;
+  color: #fafafa;
   border-radius: 20px;
   text-align: center;
   transition: all 0.2s ease;
@@ -66,8 +66,8 @@ button,
 
 button:hover,
 .button:hover {
-  background-color: #f49674;
-  color: #3e6481;
+  background-color: #ffb16f;
+  color: #fafafa;
 }
 
 textarea {
@@ -141,7 +141,7 @@ textarea {
 }
 
 .header__secondary__other h1 {
-  border: 5px solid #f49674;
+  border: 5px solid #ff6d02;
   border-radius: 5px;
   margin: 10px 30%;
 }
@@ -228,33 +228,33 @@ textarea {
 
 .callback-form input,
 .subscribe-form input {
-  border: 2px solid #f49674;
+  border: 2px solid #ff6d02;
   border-radius: 5px;
   background-color: rgba(252, 247, 248, 0.85);
   margin: 5px;
   padding: 15px;
   text-align: center;
   font-family: Poppins, sans-serif;
-  color: #f49674;
+  color: #ff6d02;
 }
 
 .callback-form input::placeholder,
 .subscribe-form input::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #f49674;
+  color: #ff6d02;
   opacity: 1; /* Firefox */
 }
 
 .callback-form input:-ms-input-placeholder,
 .subscribe-form input:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #f49674;
+  color: #ff6d02;
 }
 
 .callback-form input::-ms-input-placeholder,
 .subscribe-form input::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: #f49674;
+  color: #ff6d02;
 }
 
 .header__hamburger,
@@ -272,7 +272,7 @@ textarea {
 }
 
 .active {
-  background-color: #f49674;
+  background-color: #ff6d02;
   color: #011936;
 }
 
@@ -358,7 +358,7 @@ textarea {
 
 .grid {
   width: 100%;
-  background-color: #f49674;
+  background-color: #ff6d02;
   color: #3e6481;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -375,7 +375,7 @@ textarea {
   flex-direction: column;
   justify-content: space-around;
   background-color: #3e6481;
-  color: #f49674;
+  color: #ff6d02;
   margin: 2px;
   border-radius: 5px;
   transition: all 0.2s ease;
@@ -521,7 +521,7 @@ textarea {
 /*****Portfolio Page*****/
 
 .portfolio-image {
-  background-color: #f49674;
+  background-color: #ff6d02;
 }
 
 /*****Contact Page*****/
@@ -539,7 +539,7 @@ textarea {
 }
 
 .contact-details__sections__div {
-  border-left: 5px solid #f49674;
+  border-left: 5px solid #ff6d02;
   border-radius: 5px;
 }
 
@@ -566,32 +566,32 @@ textarea {
 
 .contact-form input,
 .contact-form textarea {
-  border: 2px solid #f49674;
+  border: 2px solid #ff6d02;
   border-radius: 5px;
   background-color: rgba(252, 247, 248, 0.85);
   margin: 5px;
   padding: 5px;
   font-family: Poppins, sans-serif;
-  color: #f49674;
+  color: #ff6d02;
 }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #f49674;
+  color: #ff6d02;
   opacity: 1; /* Firefox */
 }
 
 .contact-form input:-ms-input-placeholder,
 .contact-form textarea:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #f49674;
+  color: #ff6d02;
 }
 
 .contact-form input::-ms-input-placeholder,
 .contact-form textarea::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: #f49674;
+  color: #ff6d02;
 }
 
 /*****Social Link Icons*****/

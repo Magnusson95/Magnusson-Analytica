@@ -1,0 +1,145 @@
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 10%;
+}
+
+.blog-subheader p {
+  margin: 0px 10%;
+  text-align: center;
+}
+
+.blog-header a:hover {
+  color: #011936;
+  text-decoration: underline;
+}
+
+.iceberg-image img {
+  width: 100%;
+  height: auto;
+}
+
+.blog-text {
+  margin: 0 10% 10px 10%;
+  padding-top: 20px;
+}
+
+p {
+  text-align: justify;
+  padding: 10px;
+  color: #011936;
+}
+
+ul {
+  width: 60%;
+  margin: 10px auto 0 auto;
+  color: #011936;
+}
+
+.blog-text h2 {
+  text-align: left;
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 5px 10px 5px;
+}
+
+.quote {
+  text-align: center;
+}
+
+.flow-chart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  color: #fcf7f8;
+}
+
+.flow-chart div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+  border: 2px solid #011936;
+}
+
+.flow-chart p {
+  text-align: center;
+  color: #fcf7f8;
+}
+
+#discover {
+  background-color: rgb(47, 84, 150);
+}
+
+#nurture {
+  background-color: rgb(129, 153, 117);
+}
+
+#ideate {
+  background-color: rgb(222, 109, 67);
+}
+
+#validate {
+  background-color: rgb(66, 72, 70);
+}
+
+.flow-chart h3,
+.flow-chart p,
+.flow-chart i {
+  padding: 0;
+}
+
+.basics-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.basics-grid h4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.basics-grid img {
+  width: 100%;
+  height: auto;
+}
+
+@media all and (min-width: 768px) {
+  .flow-chart {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .flow-chart div {
+    width: 50%;
+  }
+
+  .iceberg-image {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .iceberg-image img {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .basics-grid img {
+    max-width: 50%;
+    margin: 0 auto 20px auto;
+  }
+}
+
+@media all and (min-width: 1199px) {
+  .flow-chart {
+    flex-wrap: nowrap;
+  }
+}
