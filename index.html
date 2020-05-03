@@ -28,7 +28,7 @@
 
     <title>Magnusson Informatica</title>
   </head>
-  <body>
+  <body class="contact-background">
     <header>
       <form onsubmit="return sendMail(this);" class="callback-form">
         <div class="close">
@@ -64,30 +64,20 @@
         </ul>
       </div>
       <div class="header__primary">
-        <p>example@gmail.com</p>
+        <i class="fas fa-home"></i>
         <a href="index.html" class="header__logo">
           <img
-            src="assets/images/20200422_logo_design_v1.png"
-            alt="Magnusson Informatica Logo"
+            src="assets/images/magnusson-analytica-logo.png"
+            alt="Magnusson Analytica Logo"
           />
         </a>
         <div class="header__hamburger">
           <i class="fas fa-bars"></i>
         </div>
       </div>
-      <div class="header__secondary">
-        <h1>Magnusson Informatica</h1>
-        <h2>DATA ANALYTICS, SIMPLIFIED</h2>
-      </div>
     </header>
 
     <section class="index-section">
-      <div>
-        <button class="callback">
-          <h3>Request a Callback</h3>
-        </button>
-      </div>
-
       <div class="larger-layout">
         <div class="my-work-summary">
           <div class="my-work-summary__heading">
@@ -99,7 +89,7 @@
           </div>
           <div class="my-work-summary__content">
             <div class="my-work-summary__example">
-              <i class="fas fa-chart-line"></i>
+              <img src="assets/images/example.png" alt="example" />
             </div>
             <div class="my-work-summary__text">
               <h3>My Work</h3>
@@ -118,10 +108,13 @@
                 </button>
               </a>
               <a href="blog.html">
-                <button>
+                <button class="minor">
                   <h3>View Blog</h3>
                 </button>
               </a>
+              <button class="callback">
+                <h3>Request a Callback</h3>
+              </button>
             </div>
           </div>
         </div>

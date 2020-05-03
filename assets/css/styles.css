@@ -52,14 +52,13 @@ button,
   margin: 15px auto;
   padding: 5px;
   text-align: center;
-  border: 2px solid #ff6d02;
+  border: none;
   background-color: #ff6d02;
   color: #fafafa;
   border-radius: 20px;
   text-align: center;
   transition: all 0.2s ease;
   width: 50%;
-  background: none;
   font-family: Poppins, sans-serif;
   cursor: pointer;
 }
@@ -68,6 +67,16 @@ button:hover,
 .button:hover {
   background-color: #ffb16f;
   color: #fafafa;
+  text-decoration: underline;
+}
+
+.minor {
+  background: none;
+  border: 2px #fafafa solid;
+}
+
+.minor:hover {
+  background: none;
 }
 
 textarea {
@@ -120,6 +129,12 @@ textarea {
   justify-content: space-around;
   min-width: 100%;
   text-align: center;
+}
+
+.header__primary i {
+  height: 50%;
+  margin: auto 0;
+  font-size: 26px;
 }
 
 .header__logo {
@@ -306,20 +321,21 @@ textarea {
   display: none;
 }
 
-/* .my-work-summary__heading h2,
-.my-skills__heading h2 {
-  text-align: right;
-  padding: 5px 0;
-  font-size: 15px;
-} */
-
-/* .my-work-summary__heading {
+.my-work-summary__heading {
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 1) 25%,
-    rgba(62, 100, 129, 1) 100%
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.2) 100%
   );
-} */
+}
+
+.my-work-summary__text {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
 
 .my-work-summary__content {
   width: 100%;
@@ -333,18 +349,9 @@ textarea {
   justify-content: space-around;
   text-align: center;
   font-size: 45px;
-  background-color: #3e6481;
+  background-color: rgba(0, 0, 0, 0.2);
   min-width: 60%;
   min-height: 300px;
-}
-
-.my-skills__heading {
-  color: #3e6481;
-  /* background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 25%,
-    rgba(244, 150, 116, 1) 100%
-  ); */
 }
 
 .my-software__heading {
@@ -358,7 +365,6 @@ textarea {
 
 .grid {
   width: 100%;
-  background-color: #ff6d02;
   color: #3e6481;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -374,7 +380,7 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #3e6481;
+  background-color: rgba(0, 0, 0, 0.5);
   color: #ff6d02;
   margin: 2px;
   border-radius: 5px;
@@ -403,7 +409,7 @@ textarea {
 .card-small:hover {
   cursor: pointer;
   transform: scale(1.02);
-  box-shadow: 0px 6px 6px rgba(244, 150, 116, 0.6);
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.1);
 }
 
 .card-small {
@@ -413,7 +419,6 @@ textarea {
 
 .my-software__collage,
 .my-software__collage__header {
-  background-color: #3e6481;
   clear: both;
   display: flex;
   flex-wrap: wrap;
@@ -423,7 +428,6 @@ textarea {
 
 .software {
   border-radius: 5px;
-  background-color: rgba(244, 150, 116, 1);
   padding: 5px;
   margin: 10px 10px;
   transition: all 0.2s ease;
@@ -434,7 +438,7 @@ textarea {
 .software:hover {
   cursor: pointer;
   transform: scale(1.3);
-  box-shadow: 0px 6px 6px rgba(244, 150, 116, 0.6);
+  box-shadow: 0px 0px 5px 10px rgba(244, 150, 116, 0.6);
 }
 
 .my-software__collage img {
@@ -454,7 +458,6 @@ textarea {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #3e6481;
   z-index: -1;
 }
 
@@ -464,6 +467,11 @@ textarea {
 
 .top {
   z-index: 2;
+}
+
+#tableau-logo,
+#scrum-logo {
+  background: rgba(255, 255, 255, 0.5);
 }
 
 /*****Blog Page*****/
@@ -612,7 +620,6 @@ textarea {
 /*****Contact Map*****/
 
 /*****Responsive Design*****/
-
 @media all and (min-width: 575px) {
 }
 @media all and (min-width: 768px) {
@@ -629,7 +636,7 @@ textarea {
     flex-direction: row;
   }
   .my-work-summary__heading,
-  .my-skills__heading,
+  /* .my-skills__heading, */
   .my-software__heading {
     width: 20%;
     display: flex;
@@ -639,16 +646,25 @@ textarea {
   .my-work-summary__heading h2,
   .my-software__heading h2 {
     text-align: right;
+    right: 1vw;
     position: relative;
-    right: -2vw;
     font-size: 40px;
+  }
+
+  .my-work-summary__example img {
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
   }
 
   .my-skills__heading h2 {
     text-align: left;
     position: relative;
-    left: -2vw;
     font-size: 40px;
+  }
+
+  .grid {
+    min-width: 88%;
   }
 
   .my-work-summary__heading br,
@@ -663,10 +679,6 @@ textarea {
     right: 50%;
   }
 
-  .grid {
-    padding: 10px 2vw;
-    margin: 20px 0px 20px 10px;
-  }
   .index-section {
     width: 90%;
     margin: 0 auto;
@@ -718,16 +730,6 @@ textarea {
   }
 }
 @media all and (min-width: 991px) {
-  .larger-layout {
-    display: flex;
-  }
-
-  .my-work-summary,
-  .my-skills {
-    width: 50%;
-    margin: 0 2vw;
-  }
-
   .my-work-summary button {
     width: 80%;
   }
