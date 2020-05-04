@@ -217,39 +217,30 @@ textarea {
   width: 100%;
   height: 100vh;
   z-index: 101;
+  color: #ff6d02;
 }
 
-.callback-form,
+.callback-container,
 .subscribe-container {
   border: 5px solid #011936;
   background-color: #011936;
-}
-
-.subscribe-form {
-  backdrop-filter: blur(5px);
-}
-
-.subscribe-container {
   position: relative;
-  width: 50%;
-  height: 50%;
-  left: 25%;
-  top: 25%;
+  width: 100%;
+  height: 100%;
 }
 
 .form-content {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
+  height: 100%;
   width: 75%;
   margin: 0 auto;
   justify-content: space-evenly;
-  padding: 5vh 20px;
 }
 
 .close {
   position: relative;
-  top: 10px;
+  left: 40%;
   width: 100%;
   text-align: right;
   cursor: pointer;
@@ -257,7 +248,7 @@ textarea {
 
 .close i,
 .close h3 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .callback-form input,
@@ -642,6 +633,19 @@ textarea {
 @media all and (min-width: 768px) {
   #subscribe {
     width: 25%;
+  }
+
+  .callback-container,
+  .subscribe-container {
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: 25%;
+  }
+
+  .callback-form,
+  .subscribe-form {
+    backdrop-filter: blur(5px);
   }
 
   .my-work-summary__heading {
