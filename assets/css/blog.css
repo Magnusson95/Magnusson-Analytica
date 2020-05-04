@@ -8,6 +8,12 @@ body {
   margin: 5px 10% 35px 10%;
 }
 
+.blog-header img {
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
 .remove {
   display: none;
 }
@@ -16,19 +22,24 @@ body {
   background-color: #011936;
   position: fixed;
   top: 0;
-  width: 99vw;
+  width: 100vw;
   margin: 0 auto;
   padding: 10px;
   z-index: 101;
 }
 
 .scroll h2 {
+  width: 20%;
   height: 50%;
   margin: auto 0;
 }
 
 .scroll h2 a:hover {
   color: #fafafa;
+}
+
+.scroll div {
+  width: 20%;
 }
 
 .blog-header h2 {
@@ -145,6 +156,10 @@ h3 {
 }
 
 @media all and (min-width: 768px) {
+  .blog-header img {
+    max-width: 20%;
+  }
+
   .flow-chart {
     flex-direction: row;
     flex-wrap: wrap;
