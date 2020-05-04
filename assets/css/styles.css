@@ -382,6 +382,7 @@ textarea {
   background-color: rgba(0, 0, 0, 0.5);
   color: #ff6d02;
   margin: 2px;
+  padding: 15px;
   border-radius: 5px;
   transition: all 0.2s ease;
 }
@@ -677,7 +678,8 @@ textarea {
     flex-direction: row;
   }
   .my-work-summary__heading,
-  .my-software__heading {
+  .my-software__heading,
+  .my-skills__heading {
     width: 20%;
     display: flex;
     flex-direction: column;
