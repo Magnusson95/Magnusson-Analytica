@@ -26,7 +26,7 @@
       <div class="header__secondary header__links">
         <ul>
           <li>
-            <a href="index.html" class="active">Home</a>
+            <a href="index.html">Home</a>
           </li>
           <li>
             <a href="portfolio.html">Portfolio</a>
@@ -40,33 +40,41 @@
         </ul>
       </div>
       <div class="header__primary">
-        <p>example@gmail.com</p>
+        <a href="index.html">
+          <i class="fas fa-home"></i>
+        </a>
         <a href="index.html" class="header__logo">
           <img
-            src="assets/images/20200422_logo_design_v1.png"
-            alt="Magnusson Informatica Logo"
+            src="assets/images/magnusson-analytica-logo.png"
+            alt="Magnusson Analytica Logo"
           />
         </a>
-        <div class="header__hamburger">
+        <div class="header__hamburger" id="primaryHamburger">
           <i class="fas fa-bars"></i>
         </div>
-      </div>
-      <div class="header__secondary">
-        <h1>Magnusson Informatica</h1>
-        <h2>DATA ANALYTICS, SIMPLIFIED</h2>
       </div>
     </header>
 
     <section>
-      <div class="blog-header">
+      <div class="blog-header" id="primaryHeader">
         <h2>
           <a href="blog.html">
             Go Back
           </a>
         </h2>
-        <h1>The 4 Stages of Design</h1>
         <h2>03/05/2020</h2>
       </div>
+      <div class="blog-header scroll remove" id="secondaryHeader">
+        <h2>
+          <a href="blog.html">
+            Go Back
+          </a>
+        </h2>
+        <div class="header__hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      <h1>The 4 Stages of Design</h1>
       <div class="blog-subheader">
         <p><em>This post has been inspired by Ridhima Gupta, Senior User Experience Designer at Tableau.</em></p>
       </div>
