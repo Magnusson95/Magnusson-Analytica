@@ -613,6 +613,10 @@ textarea {
 
 /*****Social Link Icons*****/
 
+.social-links {
+  color: #ff6d02;
+}
+
 .social-links-desktop {
   display: none;
 }
@@ -627,6 +631,12 @@ textarea {
 }
 
 /*****Contact Map*****/
+
+#map {
+  height: 350px;
+  width: 75%;
+  margin: 0 auto 10px auto;
+}
 
 /*****Responsive Design*****/
 @media all and (min-width: 575px) {
