@@ -763,11 +763,11 @@ textarea {
   .social-links-desktop {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 30%;
     margin: 0 auto;
   }
   .social-links__icons {
-    width: 100%;
+    width: 50%;
   }
 
   .my-software {
