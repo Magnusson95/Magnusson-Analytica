@@ -1,10 +1,25 @@
 # Magnusson Informatica
 
-Milestone 2 Project
+![Multi device Screenshot](https://github.com/Magnusson95/Magnusson-Analytica/blob/master/wireframes&responsiveness/index-responsiveness.JPG?raw=true)
+
+Magnusson Analytica is the new company created by myself following an influx of Data Analytical contracts. You can visit the site [here](https://magnusson95.github.io/Magnusson-Analytica/index.html).
+
+Potential customers will come to the site for information on the work I provide and can contact me to request a job.
+
+Those that are new to data analytics and want to understand more about the field can also go to the Blog section to learn more, as a side passion of Magnusson Analytica is coaching and training to help the Tableau community grow.
 
 ---
 
 # Contents
+
+1. [UX](#ux)
+2. [Features](#Features)
+3. [Technologies](#technologies-used)
+4. [Languages](#Languages)
+5. [Libraries](#libraries)
+6. [Testing](#testing)
+7. [Deployment](#Deployment)
+8. [Credits](#Credits)
 
 ## 1. [UX](#ux)
 
@@ -32,15 +47,27 @@ I used [Balsamiq](https://balsamiq.com/) to create detailed wireframes for each 
 
 As is to be expected certain elements present in the wireframes did not make it into the project itself but may yet do so further down the line.
 
-You can find my wireframes [here](https://github.com/Magnusson95/Magnusson-Analytica/tree/master/assets/wireframes%26responsiveness).
+You can find my wireframes [here](https://github.com/Magnusson95/Magnusson-Analytica/tree/master/wireframes%26responsiveness).
 
 ## 2. [Features](#Features)
 
 ##### [Existing Features](#Existing-features)
 
+- Collapsed Navbar to keep clean header.
+- Intro section in index.html with demo video of my work, summary of the type of work I do and the software that I use
+- Software that I use includes jQuery to display more information about each piece of software.
+- Contact section with name, email and text input fields.
+- Contact details including email address (automatically opens to send mail), company address which opens to a google maps link of the location, google maps API of the company address and social links.
+- Portfolio page with links to various examples of work (currently 1 project shown).
+- Blog page with links to various examples of work (currently 1 blog shown).
+- Individual portfolio pages contain Tableau APIs with interactive views of data visualisation work I have done.
+- Individual blog pages with mobile responsive blog posts I have written.
+- Javascript enabled pop up windows throughout the website to offer easy forms for Subscription and Callback Requests.
+
 ##### [Features Left to Implement](#features-left-to-implement)
 
 - The addition of more blogs and examples of work.
+- Filters on the blog and portfolio pages to filter through types of posts.
 
 ## 3. [Technologies](#technologies-used)
 
@@ -81,7 +108,11 @@ The site has been tested physically on a number of mobile devices including:
 - Google Pixel
 - Galaxy S9.
 
-Various examples of multiple screen sizes on different pages of the site can be found [here](https://github.com/Magnusson95/MS1-Bere-Cu-Miere/tree/master/wireframes)
+Various examples of multiple screen sizes on different pages of the site can be found [here](https://github.com/Magnusson95/Magnusson-Analytica/tree/master/wireframes%26responsiveness)
+
+Javascript tested through user testing during each stage of writting. Including confirmation of API connection, API verification, API customisation and user testing of jQuery with Google Chrome Developer Tools.
+
+Speed was also tested using [Pingdom](https://tools.pingdom.com/#5c7e3a4008c00000) and the site received a performance grade of 81/100
 
 ##### [Issues and Resolutions](#issues-and-resolutions)
 
@@ -91,7 +122,7 @@ Many views required the reordering of entire sections of the webpages when movin
 
 ##### [Known Issues](#known-issues)
 
-- All responsiveness working on Microsoft Edge except minimum flex view
+- All responsiveness working on Microsoft Edge except minimum flex view.
 
 ## 7. [Deployment](#Deployment)
 
