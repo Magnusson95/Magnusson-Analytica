@@ -32,7 +32,7 @@ I used [Balsamiq](https://balsamiq.com/) to create detailed wireframes for each 
 
 As is to be expected certain elements present in the wireframes did not make it into the project itself but may yet do so further down the line.
 
-You can find my wireframes [here](https://github.com/Magnusson95/MS1-Bere-Cu-Miere/tree/master/wireframes).
+You can find my wireframes [here](https://github.com/Magnusson95/Magnusson-Analytica/tree/master/assets/wireframes%26responsiveness).
 
 ## 2. [Features](#Features)
 
