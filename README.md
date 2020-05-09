@@ -99,28 +99,33 @@ Bere Gloria was developed on GitPod, using git and GitHub to host the repository
 
 **When deploying Bere Gloria using GitHub Pages be sure to follow these steps:**
 
-1. Navigate to '/Magnuson95/MS1-Bere_Cu_Miere' or alternatively click
+1. Navigate to '/Magnuson95/Magnusson-Analytica' or alternatively click
 2. In the top navigation click on 'settings'.
 3. Scroll down to the GitHub Pages area.
 4. Select 'Master Branch' from the 'Source' dropdown menu.
 5. Click to confirm my selection.
-6. Bere Gloria should now be live on GitHub Pages.
+6. Magnusson Analytica should now be live on GitHub Pages.
 
 **In order to run Bere Gloria locally be sure to follow these steps whilst still on Github:**
 
-1. Navigate to '/Magnusson95/MS1-Bere-Cu-Miere' or alternatively click [here](https://github.com/Magnusson95/MS1-Bere_Cu_Miere).
+1. Navigate to '/Magnusson95/Magnusson-Analytica' or alternatively click [here](https://github.com/Magnusson95/Magnusson-Analytica).
 2. Click the green 'Clone or Download' button.
 3. Copy the url in the dropdown box.
 4. Using your IDE of choice open up your preferred terminal.
 5. Navigate to your desired file location.
-6. Copy the following code and input it into your terminal to clone Bere Gloria.
+6. Copy the following code and input it into your terminal to clone Magnusson Analytica.
 
-`git clone https://github.com/Magnusson95/MS1-Bere_Cu_Miere.git`
+`git clone https://github.com/Magnusson95/Magnusson-Analytica.git`
 
 ## 8. [Credits](#Credits)
 
 ### Content
 
+- All content was created by me.
+- The first blog post took inspiration from Ridhima Gupta's Tableau 2019 conference presentation on the Design Process.
+
 ### Media
 
-### Acknowledgements
+- Product photos created by myself.
+- Backgrounds provided by [Wallhere](https://wallhere.com/).
+- Icons provided by [PNG Tree](https://pngtree.com/free-logo-png).
