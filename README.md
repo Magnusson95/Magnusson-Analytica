@@ -12,7 +12,7 @@ Those that are new to data analytics and want to understand more about the field
 
 # Contents
 
-1. [UX](#UX)
+1. [UX](#ux)
 2. [Features](#Features)
 3. [Technologies](#Technologies)
 4. [Languages](#Languages)
@@ -21,7 +21,7 @@ Those that are new to data analytics and want to understand more about the field
 7. [Deployment](#Deployment)
 8. [Credits](#Credits)
 
-## 1. UX
+## UX
 
 ##### User Stories
 
@@ -49,7 +49,7 @@ As is to be expected certain elements present in the wireframes did not make it 
 
 You can find my wireframes [here](https://github.com/Magnusson95/Magnusson-Analytica/tree/master/wireframes%26responsiveness).
 
-## 2. Features
+## Features
 
 ##### Existing Features
 
@@ -69,7 +69,7 @@ You can find my wireframes [here](https://github.com/Magnusson95/Magnusson-Analy
 - The addition of more blogs and examples of work.
 - Filters on the blog and portfolio pages to filter through types of posts.
 
-## 3. Technologies
+## Technologies
 
 - [Github](https://github.com/) to host this project's respositories.
 - [VS Code](https://code.visualstudio.com/) IDE of choice for development.
@@ -79,19 +79,19 @@ You can find my wireframes [here](https://github.com/Magnusson95/Magnusson-Analy
 - [W3C Markup Validation](https://validator.w3.org/) used to validate HTML.
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/) used to validate CSS.
 
-## 4. Languages
+## Languages
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) to build the page.
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) to style the page.
 - [Javascript](https://en.wikipedia.org/wiki/JavaScript) to add interactivity.
 
-## 5. Libraries
+## Libraries
 
 - [Font Awesome](https://fontawesome.com/) for icons.
 - [Google Fonts](https://fonts.google.com/) used for fonts.
 - [jQuery](https://jquery.com/) used for easier integration of Javascript.
 
-## 6. Testing
+## Testing
 
 ##### Internet Browsers
 
@@ -124,7 +124,7 @@ Many views required the reordering of entire sections of the webpages when movin
 
 - All responsiveness working on Microsoft Edge except minimum flex view.
 
-## 7. Deployment
+## Deployment
 
 Bere Gloria was developed on GitPod, using git and GitHub to host the repository.
 
@@ -148,7 +148,7 @@ Bere Gloria was developed on GitPod, using git and GitHub to host the repository
 
 `git clone https://github.com/Magnusson95/Magnusson-Analytica.git`
 
-## 8. Credits
+## Credits
 
 ### Content
 
