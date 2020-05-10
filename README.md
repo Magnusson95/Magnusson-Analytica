@@ -112,6 +112,14 @@ Various examples of multiple screen sizes on different pages of the site can be 
 
 Javascript tested through user testing during each stage of writting. Including confirmation of API connection, API verification, API customisation and user testing of jQuery with Google Chrome Developer Tools.
 
+Initial links to the Tableau API did not work, but the removal of jQuery and implementation of pure Javascript, plus a new API key, fixed this issue.
+
+API customisation of of the Tableau Dashboard included some sizing issues, especially when on smaller devices. Each device size was tested individually for rendering issues and subsequently fixed.
+
+Google Maps API saw no major issues. The Code Institute training was used to implement this API and then further customisation was done through the Google Maps API documentation, meaning no bugs occurred during testing.
+
+Email JS API saw some minor issues with verification of the API link, this was rectified through resubmitting the API link. Bug messages were built in for successful or unsuccessful runs of the API. This was tested in a number of ways, from various devices and consol messages were checked.
+
 Speed was also tested using [Pingdom](https://tools.pingdom.com/#5c7e3a4008c00000) and the site received a performance grade of 81/100
 
 ##### Issues and Resolutions
